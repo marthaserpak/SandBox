@@ -16,7 +16,7 @@ fun main() {
     }
      println(greetingFunction())*/
 
-    //Определение функциональных аргументов (String, Int):
+    // '3' Определение функциональных аргументов (String, Int):
    /* val greetingFunction: (String, Int) -> String = {playerName, numBuildings ->
         val currentYear = 2020
         println("Adding $numBuildings houses")
