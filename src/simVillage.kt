@@ -6,7 +6,7 @@ fun main() {
      }())*/
 
 
-    /** '2' Объявление переменной функционального типа. Показывает, что
+    /** '2' Объявление переменной "функционального типа". Показывает, что
      * компилятор может присвоить переменной любую функцию, которая не
      * принимает аргументов(пустые скобки) и возвращает значение типа String */
 
@@ -15,6 +15,15 @@ fun main() {
         "Welcome to SimVillage, Mayor! (copyright $currentYear)"
     }
      println(greetingFunction())*/
+
+    //Определение функциональных аргументов (String, Int):
+   /* val greetingFunction: (String, Int) -> String = {playerName, numBuildings ->
+        val currentYear = 2020
+        println("Adding $numBuildings houses")
+        "Welcome  to SimVillage, $playerName! (copyright $currentYear)"
+    }
+
+    println(greetingFunction("Adler",10))*/
 
 
 }
